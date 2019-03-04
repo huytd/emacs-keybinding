@@ -30,9 +30,10 @@ var body_keybindings = {
   "M-b": () => browser.runtime.sendMessage({action: "previous_tab"}),
   "f": () => focus_first_input(),
 
+  "C-w": () => browser.runtime.sendMessage({action: "close_tab"}),
   "C-x": {
     "k": () => browser.runtime.sendMessage({action: "close_tab"}),
-    "C-h": () => browser.runtime.sendMessage({action: "new_tab"})
+    "n": () => browser.runtime.sendMessage({action: "new_tab"})
   }
 }
 

@@ -14,13 +14,13 @@ Scroll
 
 Tab
 
-| keymap  | description                   |
-|---------+-------------------------------|
-| M-h     | next tab                      |
-| M-b     | previous tab                  |
-| C-x C-h | new tab                       |
-| C-x k   | close current tab             |
-| f       | focus on the first input area |
+| keymap      | description                   |
+|-------------+-------------------------------|
+| M-h         | next tab                      |
+| M-b         | previous tab                  |
+| C-x n       | new tab                       |
+| C-x k / C-w | close current tab             |
+| f           | focus on the first input area |
 
 
 Others
