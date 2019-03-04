@@ -28,7 +28,7 @@ var body_keybindings = {
   // tabs
   "M-H": () => browser.runtime.sendMessage({action: "next_tab"}),
   "M-b": () => browser.runtime.sendMessage({action: "previous_tab"}),
-  "t": () => focus_first_input(),
+  "f": () => focus_first_input(),
 
   "C-x": {
     "k": () => browser.runtime.sendMessage({action: "close_tab"}),

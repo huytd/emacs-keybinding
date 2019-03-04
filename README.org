@@ -20,7 +20,7 @@ Tab
 | M-b     | previous tab                  |
 | C-x C-h | new tab                       |
 | C-x k   | close current tab             |
-| t       | focus on the first input area |
+| f       | focus on the first input area |
 
 
 Others
