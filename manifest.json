@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Emacs-keybinding",
-  "description": "An addon for using Firefox with Emacs keybinding",
+  "name": "Emacs-Dvorak-keybinding",
+  "description": "An addon for using Firefox with Emacs Dvorak keybinding",
   "version": "0.1.2",
 
-  "homepage_url": "https://github.com/kaiwk/emacs-keybinding",
-  "author": "Wang Kai",
+  "homepage_url": "https://github.com/huytd/emacs-keybinding",
+  "author": "Wang Kai ft. Huy Tran",
 
   "permissions": [
 	"tabs",
