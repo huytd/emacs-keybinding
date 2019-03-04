@@ -17,8 +17,6 @@ var body_keybindings = {
   "C-b": () => window.scrollBy(-30, 0),
   "C-n": () => window.scrollBy(0, 30),
   "C-t": () => window.scrollBy(0, -30),
-  "n": () => window.scrollBy(0, 30),
-  "t": () => window.scrollBy(0, -30),
 
   // refresh history
   "C-r": () => window.location.reload(),
@@ -28,7 +26,7 @@ var body_keybindings = {
   // tabs
   "M-H": () => browser.runtime.sendMessage({action: "next_tab"}),
   "M-b": () => browser.runtime.sendMessage({action: "previous_tab"}),
-  "f": () => focus_first_input(),
+  "C-f": () => focus_first_input(),
 
   "C-w": () => browser.runtime.sendMessage({action: "close_tab"}),
   "C-x": {

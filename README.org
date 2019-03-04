@@ -6,8 +6,8 @@ Scroll
 
 | keymap   | description  |
 |----------+--------------|
-| C-n or n | scroll down  |
-| C-t or t | scroll up    |
+| C-n      | scroll down  |
+| C-t      | scroll up    |
 | C-h      | scroll right |
 | C-b      | scroll left  |
 
@@ -20,7 +20,7 @@ Tab
 | M-b         | previous tab                  |
 | C-x n       | new tab                       |
 | C-x k / C-w | close current tab             |
-| f           | focus on the first input area |
+| C-f         | focus on the first input area |
 
 
 Others
