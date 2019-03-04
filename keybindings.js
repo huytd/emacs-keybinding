@@ -13,26 +13,26 @@ const focus_first_input = () => {
 
 var body_keybindings = {
   // scroll
-  "C-f": () => window.scrollBy(30, 0),
+  "C-h": () => window.scrollBy(30, 0),
   "C-b": () => window.scrollBy(-30, 0),
   "C-n": () => window.scrollBy(0, 30),
-  "C-p": () => window.scrollBy(0, -30),
+  "C-t": () => window.scrollBy(0, -30),
   "n": () => window.scrollBy(0, 30),
-  "p": () => window.scrollBy(0, -30),
+  "t": () => window.scrollBy(0, -30),
 
   // refresh history
   "C-r": () => window.location.reload(),
-  "C-F": () => window.history.forward(),
+  "C-H": () => window.history.forward(),
   "C-B": () => window.history.back(),
 
   // tabs
-  "M-f": () => browser.runtime.sendMessage({action: "next_tab"}),
+  "M-H": () => browser.runtime.sendMessage({action: "next_tab"}),
   "M-b": () => browser.runtime.sendMessage({action: "previous_tab"}),
   "t": () => focus_first_input(),
 
   "C-x": {
     "k": () => browser.runtime.sendMessage({action: "close_tab"}),
-    "C-f": () => browser.runtime.sendMessage({action: "new_tab"})
+    "C-h": () => browser.runtime.sendMessage({action: "new_tab"})
   }
 }
 

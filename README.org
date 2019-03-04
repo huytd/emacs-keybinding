@@ -1,14 +1,14 @@
 It only works on Mac OS.
 
-This is a Emacs key binding addon for Firefox 57+
+This is a Emacs key binding (for Dvorak keyboards) addon for Firefox 57+
 
 Scroll
 
 | keymap   | description  |
 |----------+--------------|
 | C-n or n | scroll down  |
-| C-p or p | scroll up    |
-| C-f      | scroll right |
+| C-t or t | scroll up    |
+| C-h      | scroll right |
 | C-b      | scroll left  |
 
 
@@ -16,9 +16,9 @@ Tab
 
 | keymap  | description                   |
 |---------+-------------------------------|
-| M-f     | next tab                      |
+| M-h     | next tab                      |
 | M-b     | previous tab                  |
-| C-x C-f | new tab                       |
+| C-x C-h | new tab                       |
 | C-x k   | close current tab             |
 | t       | focus on the first input area |
 
@@ -29,7 +29,7 @@ Others
 |--------+-----------------|
 | C-g    | focus on window |
 | C-r    | refresh         |
-| C-F    | history forward |
+| C-H    | history forward |
 | C-B    | history back    |
 
 These keybindings work in most webpages except pages such as 'about:xxxx'.
